@@ -24,5 +24,5 @@ plot(cars)
 dev.off()
 ```
 
-![plot of chunk unnamed-chunk-3](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.png)
+![plot of chunk unnamed-chunk-3](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.pdf)
 

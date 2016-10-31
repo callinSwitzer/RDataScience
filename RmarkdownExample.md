@@ -25,4 +25,4 @@ dev.off()
     ## quartz_off_screen 
     ##                 2
 
-![plot of chunk unnamed-chunk-3](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.png)
+![plot of chunk unnamed-chunk-3](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.pdf)
