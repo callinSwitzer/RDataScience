@@ -24,5 +24,5 @@ plot(cars)
 dev.off()
 ```
 
-![carplot](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.pdf?raw=true)
+![carplot](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.png)
 
