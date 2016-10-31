@@ -17,7 +17,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ``` r
-pdf("carplt.png")
+pdf("carplt.pdf")
 plot(cars)
 dev.off()
 ```
@@ -25,4 +25,4 @@ dev.off()
     ## quartz_off_screen 
     ##                 2
 
-![plot of chunk unnamed-chunk-3](https://github.com/jeromyanglim/gelman-bayesian-data-analysis/raw/master/exercise-2-11-1/figure/unnamed-chunk-3.png)
+![plot of chunk unnamed-chunk-3](https://github.com/callinSwitzer/RDataScience/blob/master/carplt.png)
