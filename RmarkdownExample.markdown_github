@@ -9,7 +9,10 @@ summary(cars)
 You can also embed plots, for example:
 
 ``` {r}
+
+pdf("carplt.png")
 plot(cars)
+dev.off()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![plot of chunk unnamed-chunk-3](https://github.com/jeromyanglim/gelman-bayesian-data-analysis/raw/master/exercise-2-11-1/figure/unnamed-chunk-3.png)
