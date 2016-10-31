@@ -1,9 +1,11 @@
 ---
+title: "Untitled"
+author: "Callin Switzer"
+date: "10/30/2016"
 output:
   md_document:
     variant: markdown_github
 ---
-
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -19,5 +21,5 @@ You can also embed plots, for example:
 plot(cars)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![plot of chunk unnamed-chunk-3](https://github.com/jeromyanglim/gelman-bayesian-data-analysis/raw/master/exercise-2-11-1/figure/unnamed-chunk-3.png)
 
