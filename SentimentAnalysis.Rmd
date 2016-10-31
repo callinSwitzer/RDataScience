@@ -1,0 +1,21 @@
+---
+title: "Twitter Sentiment Analysis"
+author: "Callin Switzer"
+date: "10/30/2016"
+output: html_document
+---
+
+Install packages
+```{r}
+library(twitteR)
+library(ROAuth)
+require(RCurl)
+library(stringr)
+library(tm)
+library(ggmap)
+library(dplyr)
+library(plyr)
+library(tm)
+library(wordcloud)
+
+```
