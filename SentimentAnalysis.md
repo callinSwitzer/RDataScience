@@ -218,3 +218,36 @@ ggsave("SF_VS_Houston.png")
 ```
 
 ![SF_HOUS](https://github.com/callinSwitzer/RDataScience/blob/master/SF_VS_Houston.png)
+
+
+```{r}
+# capture score over a short time period
+
+aaplScores = numeric()
+times = numeric()
+
+for (ii in 1:10){
+     aaplTw <- searchTwitter('$AAPL', n=500)
+     
+     #Create a dataframe based around the results
+     df <- do.call("rbind", lapply(aaplTw, as.data.frame))
+     ## score sentiment
+     aaplScore <- score.sentiment(df$text, pos.words, neg.words, .progress = "text")
+     aaplScores  <- append(aaplScores, mean(aaplScore$score))
+     times <- append(times, Sys.time())
+     Sys.sleep(100) # sample about once every 100 seconds
+
+}
+
+a_s_time <- data.frame(score = aaplScores, time = times)
+
+ggplot(a_s_time, aes(y = score, x = time)) + 
+     geom_line() + 
+     theme_bw() + 
+     labs(x = "Time", y = "Mean Sentiment Score for AAPL")
+           
+ggsave("mean_sentiment_time.png")
+
+```
+
+![SenimentTIme](https://github.com/callinSwitzer/RDataScience/blob/master/mean_sentiment_time.png)
