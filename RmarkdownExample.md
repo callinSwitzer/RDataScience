@@ -17,7 +17,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ``` r
-pdf("carplt.pdf")
+png("carplt.png")
 plot(cars)
 dev.off()
 ```
